@@ -1,0 +1,655 @@
+[2019-07-18 17:04:47 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:04:47 -0700] INFO: setup Opening browser: CHROME
+[2019-07-18 17:04:57 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:04:57 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:05:02 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:05:02 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:05:02 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:05:02 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:03 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:05:03 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:03 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:05:03 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:03 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:03 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:05:03 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:05:03 -0700] INFO: type success.
+[2019-07-18 17:05:03 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:05:03 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:05:03 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:05:04 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:04 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:05:04 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:05:04 -0700] INFO: click success.
+[2019-07-18 17:05:04 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:06 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:05:06 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:05:31 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:05:31 -0700] INFO: setup Opening browser: CHROME
+[2019-07-18 17:05:41 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:05:41 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:05:46 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:05:46 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:05:46 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:05:46 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:46 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:05:46 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:46 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:05:46 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:05:47 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:47 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:05:47 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:05:47 -0700] INFO: type success.
+[2019-07-18 17:05:47 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:05:47 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:05:47 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:05:47 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:47 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:05:47 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:05:48 -0700] INFO: click success.
+[2019-07-18 17:05:48 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:49 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:05:49 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:05:49 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:05:49 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:05:49 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:49 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:05:49 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:05:50 -0700] INFO: click success.
+[2019-07-18 17:05:50 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:50 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:50 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:50 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:50 -0700] ERROR: get_element failed.
+[2019-07-18 17:05:50 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:05:50 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:05:50 -0700] INFO: scroll_to_element Hovering on ZIP_CODE_INPUT_TWO
+[2019-07-18 17:05:50 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:05:50 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:05:51 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:05:51 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:05:51 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:05:51 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:05:51 -0700] INFO: type success.
+[2019-07-18 17:05:51 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:05:51 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:05:51 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:05:51 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:51 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:05:51 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:05:51 -0700] INFO: click success.
+[2019-07-18 17:05:51 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:53 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:05:53 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:05:53 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:53 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:05:53 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:05:53 -0700] INFO: click success.
+[2019-07-18 17:05:53 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:53 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:53 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:53 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:53 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:05:54 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:54 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:05:54 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:05:54 -0700] ERROR: get_element failed.
+[2019-07-18 17:05:54 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:05:54 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:05:54 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:05:54 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:08:59 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:08:59 -0700] INFO: setup Opening browser: FIREFOX
+[2019-07-18 17:09:05 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:09:05 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:09:10 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:09:10 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:09:10 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:09:10 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:09:10 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:09:10 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:09:10 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:09:10 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:09:10 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:09:10 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:09:10 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:09:11 -0700] INFO: type success.
+[2019-07-18 17:09:11 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:09:11 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:09:11 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:09:11 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:09:11 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:09:11 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:09:12 -0700] INFO: click success.
+[2019-07-18 17:09:12 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:09:13 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:09:13 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:09:13 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:09:13 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:09:13 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:09:13 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:09:13 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:09:14 -0700] INFO: click success.
+[2019-07-18 17:09:14 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:09:14 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:09:14 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:09:14 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:09:14 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:09:14 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:09:14 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:09:14 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:09:14 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:09:14 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:09:14 -0700] INFO: scroll_to_element Hovering on ZIP_CODE_INPUT_TWO
+[2019-07-18 17:09:14 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:09:14 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:09:14 -0700] ERROR: scroll_to_element failed.
+[2019-07-18 17:09:14 -0700] ERROR:  (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:09:14 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:17:15 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:17:15 -0700] INFO: setup Opening browser: FIREFOX
+[2019-07-18 17:17:20 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:17:20 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:17:27 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:17:27 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:17:27 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:17:27 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:17:27 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:17:27 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:17:27 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:17:27 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:17:27 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:17:27 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:17:27 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:17:28 -0700] INFO: type success.
+[2019-07-18 17:17:28 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:17:28 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:17:28 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:17:28 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:17:28 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:17:28 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:17:29 -0700] INFO: click success.
+[2019-07-18 17:17:29 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:17:30 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:17:30 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:17:30 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:17:30 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:17:30 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:17:31 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:17:31 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:17:31 -0700] INFO: click success.
+[2019-07-18 17:17:31 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:17:31 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:17:31 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:17:31 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:17:31 -0700] INFO: is_element_displayed? Element is no longer displayed.
+[2019-07-18 17:17:31 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:17:31 -0700] INFO: scroll_to_element Hovering on ZIP_CODE_INPUT_TWO
+[2019-07-18 17:17:31 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:17:31 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:17:31 -0700] ERROR: scroll_to_element failed.
+[2019-07-18 17:17:31 -0700] ERROR:  (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:17:31 -0700] ERROR: verify_zip_check_form : failed.
+[2019-07-18 17:17:31 -0700] ERROR: verify_zip_check_form (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:17:31 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:19:55 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:19:55 -0700] INFO: setup Opening browser: FIREFOX
+[2019-07-18 17:20:00 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:20:00 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:20:04 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:20:04 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:20:05 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:20:05 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:05 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:20:05 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:05 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:20:05 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:05 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:05 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:20:05 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:20:06 -0700] INFO: type success.
+[2019-07-18 17:20:06 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:20:06 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:20:06 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:20:06 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:06 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:20:06 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:20:07 -0700] INFO: click success.
+[2019-07-18 17:20:07 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:08 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:08 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:20:08 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:20:08 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:20:08 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:09 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:20:09 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:20:09 -0700] INFO: click success.
+[2019-07-18 17:20:09 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:20:09 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:09 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:09 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:09 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:09 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:09 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:09 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:09 -0700] ERROR: get_element failed.
+[2019-07-18 17:20:09 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:20:09 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:20:09 -0700] INFO: scroll_to_element Hovering on ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:09 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:20:09 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:09 -0700] ERROR: scroll_to_element failed.
+[2019-07-18 17:20:09 -0700] ERROR:  (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:20:09 -0700] ERROR: verify_zip_check_form (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:20:09 -0700] INFO: js_scroll_into_view Scrolling on to ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:09 -0700] DEBUG: js_scroll_into_view {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:20:09 -0700] INFO:  Sleeping for  1 secs
+[2019-07-18 17:20:10 -0700] INFO: js_scroll_into_view success.
+[2019-07-18 17:20:10 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:20:10 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:10 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:10 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:20:10 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:20:11 -0700] INFO: type success.
+[2019-07-18 17:20:11 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:20:11 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:20:11 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:20:11 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:11 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:20:11 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:20:11 -0700] INFO: click success.
+[2019-07-18 17:20:11 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:13 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:20:13 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:20:13 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:13 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:20:13 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:20:13 -0700] INFO: click success.
+[2019-07-18 17:20:13 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:13 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:13 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:13 -0700] ERROR: highlight  failed.
+[2019-07-18 17:20:13 -0700] ERROR: highlight The element reference of <article id="available-stores-modal" class="zip-modal zip-found fancybox-content"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:13 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:13 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:13 -0700] ERROR: get_element failed.
+[2019-07-18 17:20:13 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:20:13 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:20:13 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:20:13 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:20:34 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:20:34 -0700] INFO: setup Opening browser: CHROME
+[2019-07-18 17:20:44 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:20:44 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:20:49 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:20:49 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:20:49 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:20:49 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:50 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:20:50 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:50 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:20:50 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:20:50 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:50 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:20:50 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:20:50 -0700] INFO: type success.
+[2019-07-18 17:20:50 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:20:50 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:20:50 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:20:51 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:51 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:20:51 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:20:51 -0700] INFO: click success.
+[2019-07-18 17:20:51 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:20:53 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:20:53 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:53 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:20:53 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:20:53 -0700] INFO: click success.
+[2019-07-18 17:20:53 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:53 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:53 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:53 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:53 -0700] ERROR: get_element failed.
+[2019-07-18 17:20:53 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:20:53 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:20:53 -0700] INFO: scroll_to_element Hovering on ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:53 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:20:53 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:54 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:20:54 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:20:54 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:54 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:20:54 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:20:54 -0700] INFO: type success.
+[2019-07-18 17:20:54 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:20:54 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:20:54 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:20:54 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:54 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:20:54 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:20:55 -0700] INFO: click success.
+[2019-07-18 17:20:55 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:56 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:20:56 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:20:56 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:20:56 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:20:56 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:20:56 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:20:56 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:20:56 -0700] INFO: click success.
+[2019-07-18 17:20:56 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:20:56 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:56 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:20:56 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:20:56 -0700] INFO: is_element_displayed? Element is no longer displayed.
+[2019-07-18 17:20:56 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:20:56 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:20:56 -0700] INFO: verify_zip_check_form ends.
+[2019-07-18 17:20:56 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:27:32 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:27:32 -0700] INFO: setup Opening browser: CHROME
+[2019-07-18 17:27:42 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:27:42 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:27:47 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:27:47 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:27:47 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:27:47 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:27:49 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:27:49 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:27:49 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:27:49 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:27:49 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:49 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:27:49 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:27:49 -0700] INFO: type success.
+[2019-07-18 17:27:49 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:27:49 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:27:49 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:27:49 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:50 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:27:50 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:27:50 -0700] INFO: click success.
+[2019-07-18 17:27:50 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:27:52 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:27:52 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:52 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:27:52 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:27:52 -0700] INFO: click success.
+[2019-07-18 17:27:52 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:52 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:52 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:52 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:52 -0700] ERROR: get_element failed.
+[2019-07-18 17:27:52 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:27:52 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:27:52 -0700] INFO: scroll_to_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:27:52 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:27:53 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:27:53 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:27:53 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:27:53 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:27:53 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:27:53 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:27:53 -0700] INFO: type success.
+[2019-07-18 17:27:53 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:27:53 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:27:53 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:27:53 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:53 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:27:53 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:27:54 -0700] INFO: click success.
+[2019-07-18 17:27:54 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:55 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:27:55 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:27:55 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:27:55 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:27:55 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:55 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:27:55 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:27:55 -0700] INFO: click success.
+[2019-07-18 17:27:55 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:27:55 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:55 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:55 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:56 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:56 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:56 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:56 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:56 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:27:56 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:56 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:27:56 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:27:56 -0700] ERROR: get_element failed.
+[2019-07-18 17:27:56 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:27:56 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:27:56 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:27:56 -0700] INFO: verify_zip_check_form ends.
+[2019-07-18 17:27:56 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:28:45 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:28:45 -0700] INFO: setup Opening browser: CHROME
+[2019-07-18 17:28:55 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:28:55 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:29:00 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:29:00 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:29:01 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:29:01 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:29:02 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:29:02 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:29:02 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:29:02 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:29:02 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:02 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:29:02 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:29:02 -0700] INFO: type success.
+[2019-07-18 17:29:02 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:29:02 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:29:02 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:29:02 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:02 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:29:02 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:29:03 -0700] INFO: click success.
+[2019-07-18 17:29:03 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:05 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:29:05 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:29:05 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:29:05 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:29:05 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:05 -0700] INFO:  Sleeping for  3 secs
+[2019-07-18 17:29:08 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:29:08 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:29:08 -0700] INFO: click success.
+[2019-07-18 17:29:08 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:29:08 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:08 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:08 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:08 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:08 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:08 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:08 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:08 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:09 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:09 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:09 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:09 -0700] ERROR: get_element failed.
+[2019-07-18 17:29:09 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:29:09 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:29:09 -0700] INFO: scroll_to_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:29:09 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:29:09 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:29:09 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:29:09 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:29:09 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:29:09 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:29:09 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:29:09 -0700] INFO: type success.
+[2019-07-18 17:29:09 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:29:09 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:29:09 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:29:09 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:09 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:29:09 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:29:10 -0700] INFO: click success.
+[2019-07-18 17:29:10 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:11 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:29:11 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:29:11 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:29:11 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:29:11 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:11 -0700] INFO:  Sleeping for  3 secs
+[2019-07-18 17:29:14 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:29:14 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:29:15 -0700] INFO: click success.
+[2019-07-18 17:29:15 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:15 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:15 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:29:15 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:29:15 -0700] ERROR: get_element failed.
+[2019-07-18 17:29:15 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:29:15 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:29:15 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:29:15 -0700] INFO: verify_zip_check_form ends.
+[2019-07-18 17:29:15 -0700] INFO: teardown Closing the session and the browser.
+[2019-07-18 17:29:56 -0700] INFO: create_screenshot_folder Creating screenshot folder
+[2019-07-18 17:29:56 -0700] INFO: setup Opening browser: FIREFOX
+[2019-07-18 17:30:03 -0700] INFO: open_url Testing on QA environment
+[2019-07-18 17:30:03 -0700] INFO: open_url Opening: http://www.shipt.com
+[2019-07-18 17:30:10 -0700] INFO: verify_zip_check_form started.
+[2019-07-18 17:30:10 -0700] INFO: wait_for_element : ZIP_CHECK_FORM
+[2019-07-18 17:30:10 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:30:10 -0700] INFO: wait_for_element : ZIP_CODE_INPUT_ONE
+[2019-07-18 17:30:10 -0700] INFO: wait_for_element successful.
+[2019-07-18 17:30:10 -0700] INFO: is_element_displayed? Verifying element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:30:10 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:30:10 -0700] INFO: get_element ZIP_CODE_INPUT_ONE
+[2019-07-18 17:30:11 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:11 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_ONE'
+[2019-07-18 17:30:11 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[1]"}
+[2019-07-18 17:30:11 -0700] INFO: type success.
+[2019-07-18 17:30:11 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:30:11 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:30:11 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_ONE
+[2019-07-18 17:30:12 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:12 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_ONE'.
+[2019-07-18 17:30:12 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[1]"}
+[2019-07-18 17:30:12 -0700] INFO: click success.
+[2019-07-18 17:30:12 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:14 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:30:14 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:30:14 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:30:14 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:30:14 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:14 -0700] INFO:  Sleeping for  3 secs
+[2019-07-18 17:30:17 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:30:17 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:30:18 -0700] INFO: click success.
+[2019-07-18 17:30:18 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:30:18 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:18 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:30:18 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:18 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:18 -0700] ERROR: highlight  failed.
+[2019-07-18 17:30:18 -0700] ERROR: highlight The element reference of <article id="available-stores-modal" class="zip-modal zip-found fancybox-content"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+[2019-07-18 17:30:18 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:18 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:30:18 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:18 -0700] ERROR: get_element failed.
+[2019-07-18 17:30:18 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:30:18 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:30:18 -0700] INFO: scroll_to_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:30:18 -0700] DEBUG: scroll_to_element {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:30:18 -0700] INFO: get_element ZIP_CODE_INPUT_TWO
+[2019-07-18 17:30:18 -0700] ERROR: scroll_to_element failed.
+[2019-07-18 17:30:18 -0700] ERROR:  (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:30:18 -0700] ERROR: verify_zip_check_form (881, 2896) is out of bounds of viewport width (1920) and height (966)}
+[2019-07-18 17:30:18 -0700] INFO: js_scroll_into_view Scrolling to ZIP_CODE_INPUT_TWO
+[2019-07-18 17:30:18 -0700] DEBUG: js_scroll_into_view {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:30:18 -0700] INFO:  Sleeping for  1 secs
+[2019-07-18 17:30:19 -0700] INFO: js_scroll_into_view success.
+[2019-07-18 17:30:19 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:30:19 -0700] INFO: wait_until_displayed : ZIP_CODE_INPUT_TWO
+[2019-07-18 17:30:19 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:30:19 -0700] INFO: type '95123' to 'ZIP_CODE_INPUT_TWO'
+[2019-07-18 17:30:19 -0700] DEBUG: type {:xpath=>"(//form[@id=\"zip-check-form\"]/input)[3]"}
+[2019-07-18 17:30:20 -0700] INFO: type success.
+[2019-07-18 17:30:20 -0700] INFO: is_element_displayed? Verifying element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:30:20 -0700] DEBUG: is_element_displayed? {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:30:20 -0700] INFO: get_element ZIPCHECK_GETSTARTED_BTN_TWO
+[2019-07-18 17:30:20 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:20 -0700] INFO: click on 'ZIPCHECK_GETSTARTED_BTN_TWO'.
+[2019-07-18 17:30:20 -0700] DEBUG: click {:xpath=>"(//form[@id=\"zip-check-form\"]/button)[3]"}
+[2019-07-18 17:30:20 -0700] INFO: click success.
+[2019-07-18 17:30:20 -0700] INFO: wait_until_displayed : AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:22 -0700] INFO: wait_until_displayed successful.
+[2019-07-18 17:30:22 -0700] INFO: is_element_displayed? Verifying element Two weeks Free Message
+[2019-07-18 17:30:22 -0700] DEBUG: is_element_displayed? {:xpath=>"//h2[text()=\"Try 2 weeks free.\"]"}
+[2019-07-18 17:30:22 -0700] INFO: get_element Two weeks Free Message
+[2019-07-18 17:30:22 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:22 -0700] INFO:  Sleeping for  3 secs
+[2019-07-18 17:30:25 -0700] INFO: click on 'MODAL CLOSE BTN'.
+[2019-07-18 17:30:25 -0700] DEBUG: click {:css=>"article>button[title=\"Close\"]"}
+[2019-07-18 17:30:25 -0700] INFO: click success.
+[2019-07-18 17:30:25 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL'
+[2019-07-18 17:30:25 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:25 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:30:25 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:26 -0700] INFO: is_element_displayed? true
+[2019-07-18 17:30:26 -0700] ERROR: highlight  failed.
+[2019-07-18 17:30:26 -0700] ERROR: highlight The element reference of <article id="available-stores-modal" class="zip-modal zip-found fancybox-content"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+[2019-07-18 17:30:26 -0700] INFO: is_element_displayed? Verifying element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:26 -0700] DEBUG: is_element_displayed? {:css=>"article[id = \"available-stores-modal\"]"}
+[2019-07-18 17:30:26 -0700] INFO: get_element AVAILABLE_STORES_MODAL
+[2019-07-18 17:30:26 -0700] ERROR: get_element failed.
+[2019-07-18 17:30:26 -0700] INFO: is_element_displayed? false
+[2019-07-18 17:30:26 -0700] INFO: wait_until_disappears : 'AVAILABLE_STORES_MODAL' is success.
+[2019-07-18 17:30:26 -0700] INFO: verify_second_zip_form ends.
+[2019-07-18 17:30:26 -0700] INFO: teardown Closing the session and the browser.
